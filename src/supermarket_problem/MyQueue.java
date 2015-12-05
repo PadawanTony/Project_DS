@@ -32,12 +32,21 @@ public class MyQueue<E>{
         }
     }
 
-    public E peek()throws MyQueueException{
+//    public E peek()throws MyQueueException{
+//        if (list.size()==0){
+//            throw new MyQueueException("Queue is empty.");
+//        } else {
+//            E toReturn = list.get(0);
+//
+//            return toReturn;
+//        }
+//    }
+
+    public E peek(){
         if (list.size()==0){
-            throw new MyQueueException("Queue is empty.");
+            return null;
         } else {
             E toReturn = list.get(0);
-
             return toReturn;
         }
     }

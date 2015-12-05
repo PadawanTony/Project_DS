@@ -1,4 +1,7 @@
-package supermarket_problem;
+package supermarket_problem.Testers;
+
+import supermarket_problem.Customer;
+import supermarket_problem.MyQueue;
 
 /**
  * Created by Antony on 12/5/2015.

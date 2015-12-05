@@ -1,4 +1,4 @@
-package supermarket_problem;
+package supermarket_problem.Testers;
 
 import java.util.ArrayList;
 

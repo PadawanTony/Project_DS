@@ -8,11 +8,13 @@ public class Customer implements Comparable{
     public int id;
     public static int counterID = 1;
     public int numberOfItems;
+    public long timeToLeave;
 
     public Customer(){
         this.id = this.counterID;
         this.counterID++;
         this.numberOfItems = (int) (Math.random()*10);
+        this.timeToLeave = (numberOfItems*10000);
     }
 
     public int getId() {
@@ -50,6 +52,10 @@ public class Customer implements Comparable{
     @Override
     public int compareTo(Object o) {
         return 0;
+    }
+
+    public long getTimeToLeave(){
+        return this.timeToLeave;
     }
 
 }
