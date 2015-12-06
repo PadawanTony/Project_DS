@@ -1,63 +1,34 @@
 package supermarket_problem;
 
 import java.util.ArrayList;
-import java.util.PriorityQueue;
-import java.util.Queue;
 import java.util.Scanner;
-import java.util.concurrent.ExecutionException;
 
 /**
  * Created by Antony on 12/5/2015.
  */
 public class Tester {
 
-    public static void main(String[] args) throws MyQueueException{
+    static Scanner in = new Scanner(System.in);
+    static ArrayList<Customer> newCustomerList = new ArrayList<>();
+    static int numberOfCounters;
+    static ArrayList<MyQueue<Customer>> theList = new ArrayList<>();
+    static ArrayList<Integer> counters;
 
-        Scanner in = new Scanner(System.in);
-        ArrayList<Customer> newCustomerList = new ArrayList<>();
-        int numberOfCounters;
-        ArrayList<MyQueue<Customer>> theList = new ArrayList<>();
-
-        /* Create random amount of new customers */
-        for (int i=0; i<5; i++) {
-            newCustomerList.add(new Customer());
-        }
+    public static void main(String[] args) throws MyQueueException {
 
         System.out.println("How many counters?");
         numberOfCounters = in.nextInt();
         /* Create All the Queues */
-        for (int i=0; i<numberOfCounters; i++){
+        for (int i = 0; i < numberOfCounters; i++) {
             theList.add(new MyQueue<Customer>());
-            for (int y=0; y<(int) (Math.random()*10); y++) {
+            int z = (int) (Math.random() * 10);
+            System.out.println("z " + z);
+            for (int y = 0; y < z; y++) {
                 theList.get(i).push(new Customer());
             }
         }
 
-         /* Display all queues */
-        for (MyQueue q : theList) {
-            System.out.println(q.toString());
-        }
-
-        /* Find the total numberOfItems per queue */
-        ArrayList<Integer> counters = new ArrayList<>();
-        for (int i=0; i<theList.size(); i++) {
-            counters.add(theList.get(i).getTotalItems());
-        }
-
-        for (Customer c : newCustomerList) {
-            /* Find counter with least numberOfItems */
-            for (int i=0; i<theList.size(); i++) {
-                counters.remove(i);
-                counters.add(i, theList.get(i).getTotalItems());
-            }
-            int min = 0;
-            for (int i=0; i<counters.size(); i++){
-                if (counters.get(min) > counters.get(i)) min = i;
-            }
-
-            // Add customer in the quickest counter
-            theList.get(min).push(c);
-        }
+        addNewCustomers();
 
         /* Display all queues */
         System.out.println();
@@ -66,10 +37,10 @@ public class Tester {
             System.out.println(q.toString());
         }
 
-        while ( !in.next().equals("q") ) {
+        while (!in.next().equals("q")) {
 
-            for (int i=0; i<theList.size(); i++) {
-                if ( !theList.get(i).isEmpty() ) {
+            for (int i = 0; i < theList.size(); i++) {
+                if (!theList.get(i).isEmpty()) {
                     int newItems = theList.get(i).peek().getNumberOfItems() - 6;
                     if (newItems == 0) {
                         theList.get(i).pop();
@@ -80,7 +51,7 @@ public class Tester {
                     } else {
                         while (newItems < 0) {
                             theList.get(i).pop();
-                            if ( !theList.get(i).isEmpty() ) {
+                            if (!theList.get(i).isEmpty()) {
                                 theList.get(i).peek().setNumberOfItems(theList.get(i).peek().getNumberOfItems() - Math.abs(newItems));
                                 newItems = theList.get(i).peek().getNumberOfItems();
                                 if (newItems == 0) theList.get(i).pop();
@@ -96,13 +67,20 @@ public class Tester {
                 }
 
 
-
             }// end for
-            
             /*** DEBUG ***/
              /* Display all queues */
             System.out.println();
-            System.out.println("/**************************************************/");
+            System.out.println("/*********REMOVE*****************************************/");
+            for (MyQueue q : theList) {
+                System.out.println(q.toString());
+            }
+
+            addNewCustomers();
+
+             /* Display all queues */
+            System.out.println();
+            System.out.println("/*********ADDED*****************************************/");
             for (MyQueue q : theList) {
                 System.out.println(q.toString());
             }
@@ -110,5 +88,40 @@ public class Tester {
         } //end while
 
 
+    }
+
+    public static void addNewCustomers() {
+
+        /* Create random amount of new customers */
+        newCustomerList.clear();
+        System.out.println(newCustomerList.toString());
+
+        int x = (int) Math.abs((Math.random()*10)-4);
+        for (int i = 0; i < x; i++) {
+            newCustomerList.add(new Customer());
+        }
+
+        System.out.println(newCustomerList.toString() + " " + x);
+
+        /* Find the total numberOfItems per queue */
+        counters = new ArrayList<>();
+        for (int i = 0; i < theList.size(); i++) {
+            counters.add(theList.get(i).getTotalItems());
+        }
+
+        for (Customer c : newCustomerList) {
+            /* Find counter with least numberOfItems */
+            for (int i = 0; i < theList.size(); i++) {
+                counters.remove(i);
+                counters.add(i, theList.get(i).getTotalItems());
+            }
+            int min = 0;
+            for (int i = 0; i < counters.size(); i++) {
+                if (counters.get(min) > counters.get(i)) min = i;
+            }
+
+            // Add customer in the quickest counter
+            theList.get(min).push(c);
+        }
     }
 }
