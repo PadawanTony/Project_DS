@@ -59,13 +59,55 @@ public class Tester {
             theList.get(min).push(c);
         }
 
-
         /* Display all queues */
         System.out.println();
         System.out.println("/**************************************************/");
         for (MyQueue q : theList) {
             System.out.println(q.toString());
         }
+
+        while ( !in.next().equals("q") ) {
+
+            for (int i=0; i<theList.size(); i++) {
+                if ( !theList.get(i).isEmpty() ) {
+                    int newItems = theList.get(i).peek().getNumberOfItems() - 6;
+                    if (newItems == 0) {
+                        theList.get(i).pop();
+                        System.out.println("Inside if");
+                    } else if (newItems > 0) {
+                        theList.get(i).peek().setNumberOfItems(newItems);
+                        System.out.println("Inside else if");
+                    } else {
+                        while (newItems < 0) {
+                            theList.get(i).pop();
+                            if ( !theList.get(i).isEmpty() ) {
+                                theList.get(i).peek().setNumberOfItems(theList.get(i).peek().getNumberOfItems() - Math.abs(newItems));
+                                newItems = theList.get(i).peek().getNumberOfItems();
+                                if (newItems == 0) theList.get(i).pop();
+                                System.out.println("Inside else");
+                            } else {
+                                newItems = 0;
+                            }
+                        }
+                        System.out.println("Inside else but not while");
+                    }
+                } else { // if queue is empty
+
+                }
+
+
+
+            }// end for
+            
+            /*** DEBUG ***/
+             /* Display all queues */
+            System.out.println();
+            System.out.println("/**************************************************/");
+            for (MyQueue q : theList) {
+                System.out.println(q.toString());
+            }
+
+        } //end while
 
 
     }
