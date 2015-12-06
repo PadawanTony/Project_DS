@@ -12,7 +12,7 @@ public class Customer implements Comparable{
     public Customer(){
         this.id = this.counterID;
         this.counterID++;
-        this.numberOfItems = (int) (Math.random()*10);
+        this.numberOfItems = (int) ((Math.random()+0.1)*10);
     }
 
     public int getId() {

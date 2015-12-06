@@ -87,12 +87,13 @@ public class Tester {
         }
 
         int counter = 1;
+        long timeToPop;
         int x = timesToPop.size();
         while (counter != 0) {
             for (MyQueue q : theList) {
                 if (!q.isEmpty()) {
                     for (int i = 0; i < x; i++) { // for every queue
-                        if (System.currentTimeMillis() == timesToPop.get(i) && !timesToPop.isEmpty()) {
+                        if (System.currentTimeMillis() == timesToPop.get(i) ) {
                             System.out.println("popped from " + (i + 1) + " queue");
                             System.out.println(timesToPop.get(i) + " " + timesToPop.toString());
                             theList.get(i).pop();
@@ -105,15 +106,13 @@ public class Tester {
                             }
                             if (!theList.get(i).isEmpty()) {
                                 Customer c = (Customer) theList.get(i).peek();
-                                long timeToPop = System.currentTimeMillis() + (c.getNumberOfItems() * 1000);
+                                timeToPop = System.currentTimeMillis() + (c.getNumberOfItems() * 1000);
                                 timesToPop.add(i, timeToPop);
                             } else {
                                 timesToPop.add(i, (long) 0);
                             }
                         }
                     }
-                } else {
-                    counter++;
                 }
             }
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cb77fa-2aa3-4ddc-bae6-850d3c259f42" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supermarket_problem/Customer.java" afterPath="$PROJECT_DIR$/src/supermarket_problem/Customer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supermarket_problem/Tester.java" afterPath="$PROJECT_DIR$/src/supermarket_problem/Tester.java" />
     </list>
     <ignored path="Backpack_DS.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/supermarket_problem/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7453027">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.47077245">
+              <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,9 +71,9 @@
         <option value="$PROJECT_DIR$/src/supermarket_problem/MyQueueException.java" />
         <option value="$PROJECT_DIR$/src/supermarket_problem/MyQueueTester.java" />
         <option value="$PROJECT_DIR$/src/supermarket_problem/ArrayListTester.java" />
-        <option value="$PROJECT_DIR$/src/supermarket_problem/Customer.java" />
         <option value="$PROJECT_DIR$/src/supermarket_problem/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/supermarket_problem/timeTester.java" />
+        <option value="$PROJECT_DIR$/src/supermarket_problem/Customer.java" />
         <option value="$PROJECT_DIR$/src/supermarket_problem/Tester.java" />
       </list>
     </option>
@@ -720,12 +721,12 @@
       <workItem from="1449320429011" duration="1618000" />
       <workItem from="1449322126329" duration="67000" />
       <workItem from="1449322222999" duration="17332000" />
-      <workItem from="1449359132697" duration="6909000" />
+      <workItem from="1449359132697" duration="11061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34724000" />
+    <option name="totallyTimeSpent" value="38876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,7 +739,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -803,7 +804,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -958,29 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supermarket_problem/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/supermarket_problem/timeTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3256785">
@@ -1017,10 +995,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/supermarket_problem/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4551148">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <marker date="1449367082812" expanded="true" signature="30:72" placeholder="/**...*/" />
+            <marker date="1449367082812" expanded="true" signature="227:355" placeholder="{...}" />
+            <marker date="1449367082812" expanded="false" signature="379:390" placeholder=" { " />
+            <marker date="1449367082812" expanded="false" signature="400:406" placeholder=" }" />
+            <marker date="1449367082812" expanded="false" signature="444:455" placeholder=" { " />
+            <marker date="1449367082812" expanded="false" signature="472:478" placeholder=" }" />
+            <marker date="1449367082812" expanded="false" signature="513:524" placeholder=" { " />
+            <marker date="1449367082812" expanded="false" signature="545:551" placeholder=" }" />
+            <marker date="1449367082812" expanded="false" signature="582:593" placeholder=" { " />
+            <marker date="1449367082812" expanded="false" signature="606:612" placeholder=" }" />
+            <marker date="1449367082812" expanded="false" signature="664:675" placeholder=" { " />
+            <marker date="1449367082812" expanded="false" signature="706:712" placeholder=" }" />
+            <marker date="1449367082812" expanded="false" signature="765:776" placeholder=" { " />
+            <marker date="1449367082812" expanded="false" signature="811:817" placeholder=" }" />
+            <marker date="1449367082812" expanded="true" signature="862:1001" placeholder="{...}" />
+            <marker date="1449367082812" expanded="false" signature="1051:1062" placeholder=" { " />
+            <marker date="1449367082812" expanded="false" signature="1071:1077" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/supermarket_problem/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7453027">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.47077245">
+          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
