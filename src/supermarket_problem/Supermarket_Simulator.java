@@ -20,9 +20,18 @@ public class Supermarket_Simulator {
     public static void main(String[] args) throws MyQueueException {
 
         /** Initialize supermarket counters with random amount of customers **/
-        System.out.println("How many itemCounterList?");
-        numberOfCounters = in.nextInt();
-        /* Create All the Queues */
+        System.out.println("How many supermarket counters?");
+        /** Validate positive integer input **/
+        do {
+            System.out.println("Please enter a positive number!");
+            while (!in.hasNextInt()) {
+                System.out.println("That's not a number!");
+                in.nextLine(); // this is important! in.next() does not remove the \n!!!
+            }
+                numberOfCounters = Integer.parseInt(in.nextLine());
+        } while (numberOfCounters <= 0);
+
+         /** Create All the Queues **/
         for (int i = 0; i < numberOfCounters; i++) {
             theList.add(new MyQueue<Customer>());
             int z = (int) (Math.random() * 10);
@@ -59,9 +68,11 @@ public class Supermarket_Simulator {
 //        System.out.println("totalItems: " + totalItemsInAllQueues);
 
 
-        while (!in.next().equals("q") && totalItemsInAllQueues!=0) { // Finish program if there are no more customers
+        while (!in.nextLine().equals("q") && totalItemsInAllQueues!=0) { // Finish program if there are no more customers
 
-            System.out.println("/****************************************************************************************/");
+            System.out.println("\n\n/****************************************************************************************/" +
+                    "\n/*                               YOU PRESSED A BUTTON                                   */" +
+                    "\n/****************************************************************************************/");
 
             /**
              *  Remove the customers in the front (if they should be removed)
