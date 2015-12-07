@@ -2,6 +2,10 @@ package supermarket_problem;
 
 /**
  * Created by Antony on 12/5/2015.
+ *
+ * This class represents a customer of the
+ *      supermarket. Each customer has an id and
+ *      a number of items he/she wants to buy.
  */
 public class Customer implements Comparable{
 
@@ -10,8 +14,8 @@ public class Customer implements Comparable{
     public int numberOfItems;
 
     public Customer(){
-        this.id = this.counterID;
-        this.counterID++;
+        this.id = Customer.counterID;
+        Customer.counterID++;
         this.numberOfItems = (int) (Math.random()*10);
     }
 
