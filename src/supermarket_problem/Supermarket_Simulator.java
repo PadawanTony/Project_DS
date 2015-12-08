@@ -19,6 +19,8 @@ public class Supermarket_Simulator {
 
     public static void main(String[] args) throws MyQueueException {
 
+
+
         /** Initialize supermarket counters with random amount of customers **/
         System.out.println("How many supermarket counters?");
         /** Validate positive integer input **/
