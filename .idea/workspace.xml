@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cb77fa-2aa3-4ddc-bae6-850d3c259f42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supermarket_problem/Testers/runTimeTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project_DS/supermarket_problem/Supermarket_Simulator.class" afterPath="$PROJECT_DIR$/out/production/Project_DS/supermarket_problem/Supermarket_Simulator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project_DS/supermarket_problem/Testers/nextLineTester.class" afterPath="$PROJECT_DIR$/out/production/Project_DS/supermarket_problem/Testers/nextLineTester.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backpack_problem/Recursive_Optimal_Extra.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/supermarket_problem/RunWithTime.java" afterPath="$PROJECT_DIR$/src/supermarket_problem/RunWithTime_Extrra.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backpack_problem/recursive.java" afterPath="$PROJECT_DIR$/src/backpack_problem/recursive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supermarket_problem/Supermarket_Simulator.java" afterPath="$PROJECT_DIR$/src/supermarket_problem/Supermarket_Simulator.java" />
     </list>
     <ignored path="Backpack_DS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="recursive.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/backpack_problem/recursive.java">
+      <file leaf-file-name="Recursive_Optimal_Extra.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive_Optimal_Extra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6336117">
-              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.3736952">
+              <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/supermarket_problem/Supermarket_Simulator.java" />
         <option value="$PROJECT_DIR$/src/supermarket_problem/Testers/runTimeTester.java" />
         <option value="$PROJECT_DIR$/src/backpack_problem/recursive.java" />
+        <option value="$PROJECT_DIR$/src/backpack_problem/Recursive_Optimal_Extra.java" />
       </list>
     </option>
   </component>
@@ -228,7 +227,7 @@
       <recent name="C:\Users\Antony\Code\IdeaProjects\Backpack_DS\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.recursive">
+  <component name="RunManager" selected="Application.Recursive_Optimal_Extra">
     <configuration default="false" name="Supermarket_Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -237,26 +236,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="supermarket_problem.Supermarket_Simulator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Project_DS" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RunWithTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="supermarket_problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="supermarket_problem.RunWithTime" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -309,14 +288,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="backpack_problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="backpack_problem.recursive" />
+      <option name="MAIN_CLASS_NAME" value="backpack_problem.Recursive" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Project_DS" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Recursive_Optimal_Extra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backpack_problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backpack_problem.Recursive_Optimal_Extra" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -741,18 +740,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Supermarket_Simulator" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RunWithTime" />
-      <item index="2" class="java.lang.String" itemvalue="Application.nextLineTester" />
-      <item index="3" class="java.lang.String" itemvalue="Application.runTimeTester" />
-      <item index="4" class="java.lang.String" itemvalue="Application.recursive" />
+      <item index="1" class="java.lang.String" itemvalue="Application.nextLineTester" />
+      <item index="2" class="java.lang.String" itemvalue="Application.runTimeTester" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Recursive" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Recursive_Optimal_Extra" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.recursive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.runTimeTester" />
-        <item index="2" class="java.lang.String" itemvalue="Application.nextLineTester" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Supermarket_Simulator" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RunWithTime" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Recursive_Optimal_Extra" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Recursive" />
+        <item index="2" class="java.lang.String" itemvalue="Application.runTimeTester" />
+        <item index="3" class="java.lang.String" itemvalue="Application.nextLineTester" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Supermarket_Simulator" />
       </list>
     </recent_temporary>
   </component>
@@ -774,11 +773,13 @@
       <workItem from="1449443853116" duration="158000" />
       <workItem from="1449488324274" duration="12214000" />
       <workItem from="1449524693235" duration="10172000" />
+      <workItem from="1449621574376" duration="16000" />
+      <workItem from="1449680615383" duration="862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61980000" />
+    <option name="totallyTimeSpent" value="62858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -865,20 +866,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <marker date="1449687192368" expanded="true" signature="34:77" placeholder="..." />
+            <marker date="1449687192368" expanded="true" signature="373:1941" placeholder="{...}" />
+            <marker date="1449687192368" expanded="true" signature="2005:2137" placeholder="{...}" />
+            <marker date="1449687192368" expanded="true" signature="2266:2727" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <marker date="1449687192368" expanded="true" signature="34:77" placeholder="..." />
+            <marker date="1449687192368" expanded="true" signature="373:1941" placeholder="{...}" />
+            <marker date="1449687192368" expanded="true" signature="2005:2137" placeholder="{...}" />
+            <marker date="1449687192368" expanded="true" signature="2266:2727" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/supermarket_problem/Supermarket_Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <marker date="1449531891744" expanded="true" signature="37:83" placeholder="..." />
-            <marker date="1449531891744" expanded="true" signature="85:127" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="170:198" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="896:7279" placeholder="{...}" />
-            <marker date="1449531891744" expanded="true" signature="5881:6165" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="6295:6551" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="7285:7538" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="7580:9326" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,16 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <marker date="1449531891744" expanded="true" signature="37:83" placeholder="..." />
-            <marker date="1449531891744" expanded="true" signature="85:127" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="170:198" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="896:7279" placeholder="{...}" />
-            <marker date="1449531891744" expanded="true" signature="5881:6165" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="6295:6551" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="7285:7538" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="7580:9326" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -903,16 +912,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding>
-            <marker date="1449531891744" expanded="true" signature="37:83" placeholder="..." />
-            <marker date="1449531891744" expanded="true" signature="85:127" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="170:198" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="896:7279" placeholder="{...}" />
-            <marker date="1449531891744" expanded="true" signature="5881:6165" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="6295:6551" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="7285:7538" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="7580:9326" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -920,20 +920,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1449531891744" expanded="true" signature="37:83" placeholder="..." />
-            <marker date="1449531891744" expanded="true" signature="85:127" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="170:198" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="896:7279" placeholder="{...}" />
-            <marker date="1449531891744" expanded="true" signature="5881:6165" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="6295:6551" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="7285:7538" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="7580:9326" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backpack_problem/recursive.java">
+    <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
@@ -954,7 +945,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backpack_problem/recursive.java">
+    <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
@@ -968,7 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backpack_problem/recursive.java">
+    <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -993,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3256785">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2672234">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.651357">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,16 +1028,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supermarket_problem/RunWithTime.java">
+    <entry file="file://$PROJECT_DIR$/src/supermarket_problem/RunWithTime_Extrra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38582677">
           <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
-          <folding>
-            <marker date="1449525500946" expanded="true" signature="37:83" placeholder="..." />
-            <marker date="1449525500946" expanded="true" signature="85:522" placeholder="/**...*/" />
-            <marker date="1449525500946" expanded="true" signature="618:5018" placeholder="{...}" />
-            <marker date="1449525500946" expanded="true" signature="1400:1545" placeholder="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,10 +1040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43006262">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <marker date="1449531067628" expanded="true" signature="65:107" placeholder="/**...*/" />
-            <marker date="1449531067628" expanded="true" signature="181:384" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,16 +1048,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8549061">
           <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-          <folding>
-            <marker date="1449531891744" expanded="true" signature="37:83" placeholder="..." />
-            <marker date="1449531891744" expanded="true" signature="85:127" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="170:198" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="896:7279" placeholder="{...}" />
-            <marker date="1449531891744" expanded="true" signature="5881:6165" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="6295:6551" placeholder="//..." />
-            <marker date="1449531891744" expanded="true" signature="7285:7538" placeholder="/**...*/" />
-            <marker date="1449531891744" expanded="true" signature="7580:9326" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,17 +1056,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48851773">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91858035">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
           <folding>
-            <marker date="1449532543844" expanded="true" signature="70:113" placeholder="/**...*/" />
-            <marker date="1449532543844" expanded="true" signature="186:1994" placeholder="{...}" />
+            <marker date="1449687192368" expanded="true" signature="34:77" placeholder="..." />
+            <marker date="1449687192368" expanded="true" signature="373:1941" placeholder="{...}" />
+            <marker date="1449687192368" expanded="true" signature="2005:2137" placeholder="{...}" />
+            <marker date="1449687192368" expanded="true" signature="2266:2727" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backpack_problem/recursive.java">
+    <entry file="file://$PROJECT_DIR$/src/backpack_problem/Recursive_Optimal_Extra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6336117">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.3736952">
+          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

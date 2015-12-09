@@ -3,7 +3,7 @@ package backpack_problem;
 import java.text.NumberFormat;
 import java.util.*;
 
-public class recursive {
+public class Recursive {
 
     static NumberFormat format = NumberFormat.getInstance();
     static Scanner in = new Scanner(System.in);

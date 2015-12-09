@@ -16,7 +16,7 @@ import java.util.Scanner;
  *      will start removing them taking as many seconds
  *      for each one as many items they have.
  */
-public class RunWithTime {
+public class RunWithTime_Extrra {
 
     public static void main(String[] args) throws MyQueueException {
 
